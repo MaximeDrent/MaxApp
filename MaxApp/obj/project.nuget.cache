@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NUopXeMjLjgV9BhCA2wv3rZ4lVxqDZxEPaCsRk5RLiy+oFJ5JZx0icWBUlrENlvpvhsx/TH2Vt7EK211oG1DVA==",
+  "success": true,
+  "projectFilePath": "/home/richarddrent/svn/MaxApp/MaxApp/MaxApp.csproj",
+  "expectedPackageFiles": [
+    "/home/richarddrent/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.16/microsoft.netcore.app.host.linux-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
