@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/richarddrent/svn/MaxApp/MaxApp/MaxApp.csproj": {}
+    "/home/maxime/Code/MaxApp/MaxApp/MaxApp.csproj": {}
   },
   "projects": {
-    "/home/richarddrent/svn/MaxApp/MaxApp/MaxApp.csproj": {
+    "/home/maxime/Code/MaxApp/MaxApp/MaxApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/richarddrent/svn/MaxApp/MaxApp/MaxApp.csproj",
+        "projectUniqueName": "/home/maxime/Code/MaxApp/MaxApp/MaxApp.csproj",
         "projectName": "MaxApp",
-        "projectPath": "/home/richarddrent/svn/MaxApp/MaxApp/MaxApp.csproj",
-        "packagesPath": "/home/richarddrent/.nuget/packages/",
-        "outputPath": "/home/richarddrent/svn/MaxApp/MaxApp/obj/",
+        "projectPath": "/home/maxime/Code/MaxApp/MaxApp/MaxApp.csproj",
+        "packagesPath": "/home/maxime/.nuget/packages/",
+        "outputPath": "/home/maxime/Code/MaxApp/MaxApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/richarddrent/.nuget/NuGet/NuGet.Config"
+          "/home/maxime/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -50,7 +50,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
               "version": "[7.0.16, 7.0.16]"
             }
           ],
