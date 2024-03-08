@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaxApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c1c8d8847329c06e4010048e69349a30723cc89")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaxApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaxApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
