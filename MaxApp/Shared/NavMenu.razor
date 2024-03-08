@@ -1,39 +1,61 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">MaxApp</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+﻿@inject NavigationManager NavigationManager
+
+
+
+<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl overflow-hidden my-3 fixed-start ms-3 bg-gradient-dark" id="sidenav-main">
+    <div class="sidenav-header">
+      <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+      <a class="navbar-brand m-0" href="/" target="_blank">
+        <img src="../../assets/img/logo-no-backgroundsmall.png" class="navbar-brand-img h-100" alt="main_logo">
+        <span class="ms-1 font-weight-bold text-white">Roadmap Manager</span>
+      </a>
     </div>
-</div>
+    <hr class="horizontal light mt-0 mb-2">
+      <div class="collapse navbar-collapse overflow-hidden w-auto h-auto" id="sidenav-collapse-main">
+        <ul class="navbar-nav">
+          <li class="nav-item mb-2 mt-0">
+            <a data-bs-toggle="collapse" href="#ProfileNav" class="nav-link text-white" aria-controls="ProfileNav" role="button" aria-expanded="false">
+             
+                <img src="/" 
+                    class="avatar" >
+              <span class="nav-link-text ms-2 ps-1">
+                Home pagina
+              </span>
+                      
+            </a>
+            <div class="collapse" id="ProfileNav" style="">
+              <ul class="nav ">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/account">
+                    <span class="sidenav-mini-icon"> MP </span>
+                    <span class="sidenav-normal  ms-3  ps-1"> My Profile </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/logout">
+                    <span class="sidenav-mini-icon"> L </span>
+                    <span class="sidenav-normal  ms-3  ps-1"> Logout </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <hr class="horizontal light mt-0">
+            @* @((MarkupString)strHTML) *@
+           
+              <li class="nav-item">
+                <a class="nav-link" href="/")" target="">
+                  <i class="material-icons-round  me-2">home </i>
+                  <span class="nav-link-text ms-2 ps-1">Home</span>
+                </a>
+              </li>
+              }
+            }
+        </ul>
+      </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
-    </nav>
-</div>
+  </aside>
 
-@code {
-    private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+

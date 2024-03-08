@@ -1,0 +1,28 @@
+
+.fixed-plugin .badge.badge-sm {
+    /* Your desired styles here */
+    padding: 0.45em 0.775em;
+    font-size: 0.65em;
+    border-radius: 0.375rem;
+    width: auto;
+height: auto;
+}
+
+.tox .tox-tinymce{
+    height: 80vh !important;
+}
+
+.icon-flipped {
+    transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    padding-bottom: 3px;
+}
+
+.multi-line-input {
+    resize: none;         /* Voorkom dat gebruikers de textarea handmatig vergroten/verkleinen */
+    overflow-y: auto;     /* Toon een verticale scrollbar als de inhoud de maximale hoogte overschrijdt */
+}
+
+
