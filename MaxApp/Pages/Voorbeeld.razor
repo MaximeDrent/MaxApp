@@ -642,8 +642,8 @@
    
     protected override async Task OnInitializedAsync()
     {
-        HandleParameterchange();
     } 
+    
     protected override void OnParametersSet()
     {
       HandleParameterchange();
@@ -652,16 +652,21 @@
     private void HandleParameterchange()
     {
       if(id != null)
+      {    
+        if(id == "1")
         {
-          if(id=="1")
-          {
-            EenOfAndereTextOfZo ="Fiets";
-          }
-          else if(id=="2")
-          {
-            EenOfAndereTextOfZo ="Boot";
-          }
+          EenOfAndereTextOfZo ="Fiets";
+          
         }
+        else if(id == "2")
+        {
+          EenOfAndereTextOfZo ="Boot";
+        }
+      }
+      else
+      {
+        EenOfAndereTextOfZo ="Dit is fout! ga weg!";
+      }
         
         StateHasChanged();
     }
