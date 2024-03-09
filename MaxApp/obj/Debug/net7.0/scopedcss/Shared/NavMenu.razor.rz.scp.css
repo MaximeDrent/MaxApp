@@ -66,3 +66,7 @@
         overflow-y: auto;
     }
 }
+.fixed-size-user-image[b-a4dl30ovhn] {
+    width: 40px; /* Taille fixe en pixels */
+    height: 40px; /* Taille fixe en pixels */
+}

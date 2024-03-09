@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NUopXeMjLjgV9BhCA2wv3rZ4lVxqDZxEPaCsRk5RLiy+oFJ5JZx0icWBUlrENlvpvhsx/TH2Vt7EK211oG1DVA==",
+  "dgSpecHash": "6RbIEq2t3rJlc2Iq1I5txkhz0r3M5KS7FlIM5E+5cyhJGjERzpC4HbBMEP8TixN7K6xDx4Bottv0hsZYNwO5Vw==",
   "success": true,
-  "projectFilePath": "/home/richarddrent/svn/MaxApp/MaxApp/MaxApp.csproj",
+  "projectFilePath": "/home/maxime/Code/MaxApp/MaxApp/MaxApp.csproj",
   "expectedPackageFiles": [
-    "/home/richarddrent/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.16/microsoft.netcore.app.host.linux-x64.7.0.16.nupkg.sha512"
+    "/home/maxime/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/home/maxime/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "/home/maxime/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.16/microsoft.netcore.app.host.linux-x64.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }
